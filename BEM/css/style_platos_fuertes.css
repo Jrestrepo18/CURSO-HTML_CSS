@@ -19,13 +19,11 @@ header {
     padding: 0;
 }
 
-
 .logo {
     width: 100%;
     max-width: 500px;
     height: auto;
 }
-
 
 .list_menu ul {
     display: flex;
@@ -68,6 +66,31 @@ header {
 .card__title {
     color: #B22222;
     margin-bottom: 1rem;
+}
+
+.card_opcion {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.card_opcion li {
+    margin: 0.5rem 0;
+}
+
+.precio {
+    display: block;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.card_link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #B22222;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer {

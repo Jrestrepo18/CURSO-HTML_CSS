@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -7,18 +6,18 @@ body {
 }
 
 header {
-    background-color: #F5F5F5;
-    color: rgb(0, 0, 0);
+    background-color: #5C4033;
+    color: white;
     padding: 1rem;
     text-align: center;
 }
+
 .logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
 }
-
 
 .logo {
     width: 100%;
@@ -31,10 +30,8 @@ header {
     justify-content: center;
     list-style: none;
     padding: 0;
-    margin: 0rem 0;
+    margin: 1rem 0;
     gap: 2rem;
-    background-color: #5C4033;
-    height: 100;
 }
 
 .opcion_link {
@@ -69,6 +66,31 @@ header {
 .card__title {
     color: #B22222;
     margin-bottom: 1rem;
+}
+
+.card_opcion {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.card_opcion li {
+    margin: 0.5rem 0;
+}
+
+.precio {
+    display: block;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+.card_link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #B22222;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 footer {
