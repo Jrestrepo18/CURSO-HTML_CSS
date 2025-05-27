@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Thriller - 1982</title>
+<link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<header>
+<nav role="navigation" aria-label="Menú principal">
+    <a href="" tabindex="1">Inicio</a>
+    <a href="" tabindex="2">Álbum</a>
+    <a href="" tabindex="3">Contacto</a>
+</nav>
+</header>
+
+<main>
+    <section>
+        <h1 tabindex="4">Thriller</h1>
+    </section>
+
+    <div class="contenedor">
+        <img src="./img/album.jpg" alt="Portada del álbum Thriller de Michael Jackson" tabindex="5" />
+    </div>
+
+    <!-- Sección Beat It -->
+    <section aria-labelledby="beatit-title">
+        <h2 id="beatit-title" tabindex="6">Beat It</h2>
+        <p tabindex="7">Fusión de pop y rock.</p>
+        <p tabindex="8">Solo de guitarra épico.</p>
+        <p tabindex="9">Mensaje anti-violencia.</p>
+        <audio controls tabindex="10" aria-label="Reproducir Beat It">
+            <source src="./audio/Beat It.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <!-- Sección Thriller -->
+    <section aria-labelledby="thriller-title">
+        <h2 id="thriller-title" tabindex="11">Thriller</h2>
+        <p tabindex="12">Tema principal con video de terror narrado por Vincent Price.</p>
+        <p tabindex="13">Revolucionó los videoclips.</p>
+        <video controls tabindex="14" aria-label="Reproducir video de Thriller">
+            <source src="./video/Thriller.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- Sección Wanna Be Startin' Somethin' -->
+    <section aria-labelledby="startin-title">
+        <h2 id="startin-title" tabindex="15">Wanna Be Startin' Somethin'</h2>
+        <p tabindex="16">Ritmo afro-funk.</p>
+        <p tabindex="17">Estribillo famoso: “Mama-say mama-sa mama-coo-sa”.</p>
+        <audio controls tabindex="18" aria-label="Reproducir Wanna Be Startin' Somethin'">
+            <source src="./audio/Wanna Be Startin Somethin.mp3" type="audio/mp3">
+        </audio>
+    </section>
+
+    <!-- Sección Billie Jean -->
+    <section aria-labelledby="billie-title">
+        <h2 id="billie-title" tabindex="19">Billie Jean</h2>
+        <p tabindex="20">Clásico del pop con bajo inolvidable.</p>
+        <p tabindex="21">Lanzó el “moonwalk”.</p>
+        <video controls tabindex="22" aria-label="Reproducir video de Billie Jean">
+            <source src="./video/Billie Jean.mp4" type="video/mp4">
+        </video>
+    </section>
+</main>
+
+<footer role="contentinfo" aria-label="Información de contacto">
+    <section>
+        <h2 id="contacto-footer" tabindex="23">Contacto</h2>
+        <p tabindex="24">Contacto</p>
+        <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer" tabindex="25" aria-labelledby="contacto-footer github-label">
+            <span id="github-label">GitHub</span>
+        </a>
+    </section>
+</footer>
+</body>
+</html>
