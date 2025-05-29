@@ -65,6 +65,7 @@ nav a:hover, nav a.active {
     text-align: center; /* Alineación centrada */
     border-radius: 5px; /* Bordes redondeados */
     margin: 30px 5%; /* Margen externo */
+    border: 2px solid #f39c12;
 }
 
 /* Estilos para el título de la sección hero */

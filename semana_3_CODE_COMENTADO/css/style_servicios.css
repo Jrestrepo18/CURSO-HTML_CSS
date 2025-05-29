@@ -92,7 +92,6 @@ main {
 /* Efectos hover para las tarjetas de servicio */
 .servicio:hover {
     transform: translateY(-5px); /* Levanta ligeramente la tarjeta */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
 }
 
 /* Estilos para los títulos de los servicios */
