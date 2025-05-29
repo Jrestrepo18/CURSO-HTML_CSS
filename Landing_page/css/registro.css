@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* Header */
+.card__header {
+    background-image: url(../img/floor-4335428_1920.jpg);
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 3px solid #800000;
+    
+}
+
+/* Estilos para la navegación */
+.header__main {
+    background-color: #000000cc;
+    padding: 1rem;
+    border-bottom: 1px solid #800000;
+}
+
+.main__option {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main__option:hover {
+    color: #fff;
+    background-color: rgba(139, 0, 0, 0.3);
+    text-shadow: 0 0 5px #c00;
+}
+
+.header__title {
+    color: #c00;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 1rem;
+}
+
+.header__contect{
+    color: #aaa;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #000000cc;;
+}
+
+/* Estilos del formulario de registro - Versión mejorada */
+.register__container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+}
+
+.register__form {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid #800000;
+    border-radius: 5px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(139, 0, 0, 0.3);
+}
+
+.form__section {
+    margin-bottom: 2.5rem;
+    border-bottom: 1px dashed #800000;
+    padding-bottom: 1.5rem;
+}
+
+.form__section:last-child {
+    border-bottom: none;
+}
+
+.section__title {
+    color: #c00;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px #000;
+    letter-spacing: 1px;
+}
+
+.form__group {
+    position: relative;
+    margin-bottom: 1.8rem;
+}
+
+.form__group label {
+    display: block;
+    color: #ddd;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.required {
+    color: #c00;
+}
+
+.form__input {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: rgba(30, 30, 30, 0.8);
+    border: 1px solid #333;
+    color: #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form__input:focus {
+    outline: none;
+    border-color: #800000;
+    box-shadow: 0 0 0 2px rgba(139, 0, 0, 0.3);
+}
+
+.input__effect {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #c00;
+    transition: width 0.3s ease;
+}
+
+.form__input:focus ~ .input__effect {
+    width: 100%;
+}
+
+.form__group--checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.form__group--checkbox input {
+    margin-right: 0.8rem;
+}
+
+.form__group--checkbox label {
+    color: #ccc;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.form__submit {
+    background-color: #800000;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    width: 100%;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.form__submit:hover {
+    background-color: #a00000;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(139, 0, 0, 0.4);
+}
+
+/* Efecto de manchas de sangre */
+.register__form::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path fill="rgba(139,0,0,0.1)" d="M30,15 Q50,0 70,15 Q85,30 80,50 Q75,70 50,85 Q25,70 20,50 Q15,30 30,15 Z"/></svg>');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+@media (max-width: 600px) {
+    .register__container {
+        padding: 0 1rem;
+    }
+    
+    .register__form {
+        padding: 1.5rem;
+    }
+    
+    .section__title {
+        font-size: 1.1rem;
+    }
+}

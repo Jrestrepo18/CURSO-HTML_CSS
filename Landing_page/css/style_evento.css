@@ -1,0 +1,106 @@
+/* Estilos básicos */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #ddd;
+    line-height: 1.6;
+}
+
+/* Header */
+.card__header {
+    background-image: url(../img/halloween-4537430_1920.jpg);
+    padding: 3rem 1rem;
+    text-align: center;
+    border-bottom: 3px solid #800000;
+    
+}
+
+/* Estilos para la navegación */
+.header__main {
+    background-color: #000000cc;
+    padding: 1rem;
+    border-bottom: 1px solid #800000;
+}
+
+
+.main__option {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.main__option:hover {
+    color: #fff;
+    background-color: rgba(139, 0, 0, 0.3);
+    text-shadow: 0 0 5px #c00;
+}
+
+.header__title {
+    color: #c00;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px #000;
+    margin-bottom: 1rem;
+}
+
+.header__contect{
+    color: #aaa;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #000000cc;;
+}
+
+/* Contenedor principal */
+.cards {
+    padding: 2rem 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Tarjetas */
+.cards__card {
+    background-color: #222;
+    border-left: 4px solid #800000;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    border-radius: 0 5px 5px 0;
+}
+
+/* Títulos */
+.card__title, .contect__title {
+    color: #c00;
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* Texto */
+.contect__text, .card__list {
+    color: #ccc;
+    font-size: 1rem;
+}
+
+/* Listas */
+.card__list {
+    padding-left: 1.2rem;
+}
+
+.list_item {
+    margin-bottom: 0.7rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .card__title, .contect__title {
+        font-size: 1.3rem;
+    }
+}
