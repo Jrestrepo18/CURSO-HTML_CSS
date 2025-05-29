@@ -128,7 +128,7 @@ main {
 
 /* Botones */
 .btn {
-    display: inline-block;
+    display:block;
     padding: 10px 20px;
     background-color: #f1c40f;
     color: #2c3e50;
