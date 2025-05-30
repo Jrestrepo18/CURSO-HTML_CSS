@@ -74,6 +74,7 @@ body {
     height: 100px;
     background-color: yellow;
     transform: rotate(45deg);
+    animation: rotateBox 2s linear infinite;
 }
 
 a:hover {
@@ -85,6 +86,7 @@ a:hover {
     content: "New!";
     color: red;
     font-weight: bold;
+
 }
 
 .fade-in {
@@ -109,11 +111,11 @@ footer{
     align-items: center;
 }
 
-@keyframes fade {
+@keyframes rotateBox{
     0% {
-    opacity: 0;
+    transform: rotate(300deg);
 }
     100% {
-    opacity: 1;
+    transform: rotate(0deg);
 }
 }
