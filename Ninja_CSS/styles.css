@@ -1,19 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* Selectors with specificity */
-div {
-    color: #0000ff;
-}
-
-.highlight {
-    color: red;
-}
-
-#special {
-    color: green;
+body {
+    background-color: #6c9cdb;
 }
 
 /* Visual customizations */
-body {
-    background-color: #6c9cdb;
+div {
+    color: #0000ff;
 }
 
 .header{
@@ -89,9 +86,6 @@ a:hover {
 
 }
 
-.fade-in {
-    animation: fade 2s ease-in-out;
-}
 
 .interactivity{
     display: flex;
@@ -102,6 +96,14 @@ a:hover {
     margin-top: 10px;
     padding-bottom: 30px;
     align-items: center;
+}
+
+.highlight {
+    color: red;
+}
+
+#special {
+    color: green;
 }
 
 footer{
