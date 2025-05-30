@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -33,6 +33,23 @@ div {
 
 }
 
+.interactivity{
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    color: #0000ff;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    color: #0000ff;
+    align-items: center;
+}
+
 .box {
     background-color: #db4f4f;
     border: 2px solid #000;
@@ -41,6 +58,12 @@ div {
     margin: 10px;
 }
 
+.box::before {
+    content: "New!";
+    color: red;
+    font-weight: bold;
+
+}
 
 .content {
     width: 300px;
@@ -48,14 +71,6 @@ div {
     margin: 10px;
     border: 5px solid #0000ff;
     margin: auto;
-}
-
-
-.inline-block {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: lightblue;
 }
 
 .fixed-box {
@@ -74,28 +89,16 @@ div {
     animation: rotateBox 2s linear infinite;
 }
 
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+}
+
 a:hover {
     color: orange;
     text-decoration: underline;
-}
-
-.box::before {
-    content: "New!";
-    color: red;
-    font-weight: bold;
-
-}
-
-
-.interactivity{
-    display: flex;
-    position: relative;
-    align-items: center;
-    flex-direction: column;
-    color: #0000ff;
-    margin-top: 10px;
-    padding-bottom: 30px;
-    align-items: center;
 }
 
 .highlight {
@@ -104,13 +107,6 @@ a:hover {
 
 #special {
     color: green;
-}
-
-footer{
-    display: flex;
-    flex-direction: column;
-    color: #0000ff;
-    align-items: center;
 }
 
 @keyframes rotateBox{
